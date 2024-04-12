@@ -11,11 +11,11 @@ secret_id = os.environ.get('SECRET_ID')
 secret_key = os.environ.get('SECRET_KEY')
 
 images = [
-    "docker-machine-01.jpg",
     "docker-machine-02.jpg",
-    "docker-machine-03.jpg",
-    "docker-machine-04.jpg",
-    "docker-machine-05.jpg"
+    "docker-machine-02.jpg",
+    "docker-machine-02.jpg",
+    "docker-machine-02.jpg",
+    "docker-machine-02.jpg"
 ]
 
 @app.route('/')
